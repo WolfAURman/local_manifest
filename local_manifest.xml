@@ -25,7 +25,7 @@
     <project path="kernel/xiaomi/mt6768"
     	name="android_kernel_xiaomi_mt6768"
     	remote="mediatek"  
-    	revision="twelve-wip"/>
+    	revision="twelve"/>
 
     <!--Blobs-->
     <project path="vendor/xiaomi/lava"

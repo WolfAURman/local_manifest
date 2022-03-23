@@ -17,13 +17,8 @@
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="WolfAURman/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
+  <project path="device/mediatek/sepolicy_vndr" name="CipherOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="twelve-L"/>
  
  <!-- Additional -->
-  <remove-project name="frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="PixelExperience/frameworks_opt_telephony" remote="github" revision="twelve"/>
-  
-  <remove-project name="android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="PixelExperience/frameworks_opt_net_ims" remote="github" revision="twelve"/>
 
 </manifest>

@@ -1,46 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="origin"
-	fetch="https://github.com/PixelExperience"/>   
-           
-    <remote name="mediatek"
-	fetch="https://github.com/Redmi-MT6768"/>
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com/Redmi-MT6768"
+           revision="eleven"/>
 
-    <remote name="sepolicy"
-	fetch="https://github.com/StatiXOS"/>
+  <remote  name="WA"
+           fetch="https://github.com/WolfAURman"
+           revision="eleven"/>
 
-    <!--Device tree-->
-    <project path="device/xiaomi/lava"
-    	name="android_device_xiaomi_lava"
-    	remote="mediatek"
-    	revision="lineage-19.0"/>
+ <!-- Device Trees -->
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="WA" revision="lineage-18.1"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="WA" revision="lineage-18.1"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768" revision="twelve"/>
 
-    <project path="device/xiaomi/mt6768-common"
-    	name="android_device_xiaomi_mt6768-common"
-    	remote="mediatek"
-    	revision="lineage-19.0"/>
-
-    <!--Kernel-->
-    <project path="kernel/xiaomi/mt6768"
-    	name="android_kernel_xiaomi_mt6768"
-    	remote="mediatek"  
-    	revision="twelve"/>
-
-    <!--Blobs-->
-    <project path="vendor/xiaomi/lava"
-    	name="android_vendor_xiaomi_lava"
-    	remote="mediatek"
-    	revision="twelve"/>
-
-    <project path="vendor/xiaomi/mt6768-ims"
-    	name="android_vendor_xiaomi_mt6768-ims"
-    	remote="mediatek"
-    	revision="twelve"/>
-
-    <project path="device/mediatek/sepolicy_vndr"
-    	name="android_device_mediatek_sepolicy_vndr"
-    	remote="sepolicy"
-    	revision="sc"/>
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="WA"/>
+  
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="eleven"/>
 
 </manifest>

@@ -4,6 +4,11 @@
   <remote  name="Redmi-MT6768"
            fetch="https://github.com/Redmi-MT6768"
            revision="twelve"/>
+  
+  <remote  name="PPUI"
+           fetch="https://github.com/PixelPlusUI"
+           revision="sv2"/>
+
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768" revision="lineage-19.1"/>
@@ -15,13 +20,12 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768"/>
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
-  
- <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="CipherOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="twelve-L"/>
 
  <!-- Additional -->
-  <remove-project name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="PixelPlusUI/frameworks_opt_telephony" remote="github" revision="sv2"/>
-  <remove-project name="platform/frameworks/opt/net/ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="PixelPlusUI/frameworks_opt_net_ims" remote="github" revision="sv2"/>
+  <remove-project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="PPUI" revision="sv2"/>
+
+  <remove-project name="android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="PPUI" revision="sv2"/>
+
 </manifest>

@@ -5,10 +5,6 @@
            fetch="https://gitlab.com/LinkBoi00"
            revision="12.1"/>
 
-   <remote name="clang"
-           fetch="https://gitlab.com/Panchajanya1999"
-           revision="main"/>
-
  <!-- Device Trees -->
   <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree"/>
  
@@ -17,7 +13,5 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/daisy" name="android_vendor_xiaomi_daisy" remote="tree"/>
- 
- <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="clang"/>
+   
 </manifest>

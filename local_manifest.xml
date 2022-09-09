@@ -2,16 +2,14 @@
 <manifest>
 
   <remote  name="6768Team"
-           fetch="https://github.com/6768Team"
-           revision="twelve"/>
+           fetch="https://github.com/6768Team"/>
 
   <remote  name="Redmi-MT6768"
            fetch="https://github.com/Redmi-MT6768"
            revision="twelve"/>
 
-  <remote  name="memetek_sepolicy"
-           fetch="https://github.com/nashc-dev"
-           revision="lineage-19.1"/>
+  <remote  name="memetek"
+           fetch="https://github.com/nashc-dev"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="6768Team" revision="lineage-19.1-S"/>
@@ -25,7 +23,8 @@
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="memetek_sepolicy"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768Team" revision="lineage-19.1"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="memetek"/>
 
  <!-- Additional -->
   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>

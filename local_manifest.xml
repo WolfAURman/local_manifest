@@ -10,8 +10,8 @@
            revision="twelve"/>
 
   <remote  name="memetek_sepolicy"
-           fetch="https://github.com/CipherOS"
-           revision="twelve-L"/>
+           fetch="https://github.com/nashc-dev"
+           revision="lineage-19.1"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="6768Team" revision="lineage-19.1-S"/>

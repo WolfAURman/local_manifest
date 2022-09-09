@@ -23,7 +23,7 @@
   <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768Team" revision="lineage-19.1"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768Team" revision="lineage-19.1-S"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="memetek" revision="lineage-19.1"/>
 
  <!-- Additional -->

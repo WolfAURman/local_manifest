@@ -20,7 +20,6 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768Team" revision="lineage-19.1-S"/>
-  <project path="vendor/xiaomi/mt6768-ims" name="android_vendor_xiaomi_mt6768-ims" remote="Redmi-MT6768"/>
   
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768Team" revision="lineage-19.1-S"/>

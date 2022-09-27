@@ -13,6 +13,6 @@
   <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree"/>
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name=" android_vendor_xiaomi_msm8953-common" remote="vendor"/>
+  <project path="vendor/xiaomi" name="android_vendor_xiaomi_msm8953-common" remote="tree"/>
 
 </manifest>

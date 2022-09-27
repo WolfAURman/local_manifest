@@ -10,7 +10,7 @@
            revision="lineage-19.1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="fs"/>
+  <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="tree"/>
  
  <!-- Kernel -->
   <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="tree"/>

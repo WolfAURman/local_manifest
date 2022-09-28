@@ -6,8 +6,9 @@
            revision="lineage-18.1"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree"/>
-  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree"/>
+  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree" revision="lineage-18.1-rebase"/>
+  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree" revision="lineage-18.1-rebase"/>
+  <project path="device/xiaomi/sakura-common" name="android_device_xiaomi_sakura-common" remote="tree" revision="lineage-18.1-rebase"/>
    
  <!-- Kernel -->
   <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree"/>

@@ -2,18 +2,19 @@
 <manifest>
 
    <remote name="tree"
-           fetch="https://github.com/ItsVixano"
-           revision="lineage-18.1"/>
+           fetch="https://github.com/Xtended-Devices"
+           revision="xr"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree" revision="lineage-18.1-rebase"/>
-  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree" revision="lineage-18.1-rebase"/>
-  <project path="device/xiaomi/sakura-common" name="android_device_xiaomi_sakura-common" remote="tree" revision="lineage-18.1-rebase"/>
+  <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree"/>
    
  <!-- Kernel -->
-  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree"/>
+  <project path="kernel/xiaomi/daisy" name="kernel_xiaomi_daisy" remote="tree" revision="xt"/>
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="android_vendor_xiaomi_msm8953-common" remote="tree"/>
+  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree"/>
+  
+ <!-- Additional -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
 
 </manifest>

@@ -2,27 +2,20 @@
 <manifest>
 
     <remote name="los"
-	fetch="https://github.com/LineageOS"/>   
+	fetch="https://github.com/LineageOS"
+	revision="lineage-18.1"/>   
 
     <remote name="vendor"
-	fetch="https://github.com/Dhina17"/>
+	fetch="https://github.com/Dhina17"
+	revision="lineage-18.1"/>
 
     <!--Device tree-->
-    <project path="device/xiaomi/onclite"
-    	name="android_device_xiaomi_onclite"
-    	remote="los"
-    	revision="lineage-18.1"/>
+    <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="los"/>
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/onclite"
-    	name="android_kernel_xiaomi_onclite"
-    	remote="los"
-    	revision="lineage-18.1"/>
+    <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="los"/>
 
     <!--Blobs-->
-    <project path="vendor/xiaomi/onclite"
-    	name="android_vendor_xiaomi_onclite"
-    	remote="vendor"
-    	revision="lineage-18.1"/>
+    <project path="vendor/xiaomi/onclite" name="android_vendor_xiaomi_onclite" remote="vendor"/>
 
 </manifest>

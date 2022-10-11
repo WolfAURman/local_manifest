@@ -13,7 +13,7 @@
     <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="los"/>
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="los"/>
+    <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="los" revision="lineage-19.1"/>
 
     <!--Blobs-->
     <project path="vendor/xiaomi/onclite" name="android_vendor_xiaomi_onclite" remote="vendor"/>

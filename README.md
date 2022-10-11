@@ -35,6 +35,13 @@ rm -rf hardware/qcom-caf/msm8996/audio && git clone https://github.com/LineageOS
 rm -rf hardware/qcom-caf/msm8996/media && git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/media
 ```
 
+Or one line:
+```bash
+rm -rf hardware/qcom-caf/msm8996/display && git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/display && rm -rf hardware/qcom-caf/msm8996/audio && git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/audio && rm -rf hardware/qcom-caf/msm8996/media && git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/media
+```
+
+##
+
 ```**``` - To create these ROMs, you need to clone this repository that is not present in CrDroid:
 ```bash
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-19.1 hardware/xiaomi

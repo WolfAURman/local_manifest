@@ -3,22 +3,15 @@
 
    <remote name="tree"
            fetch="https://github.com/Xtended-Devices"
-           revision="xr"/>
-		   
-   <remote name="clang"
-           fetch="https://gitlab.com/PixelOS-Devices"
-           revision="15"/>		   
+           revision="xt"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree"/>
-   
- <!-- Kernel -->
-  <project path="kernel/xiaomi/daisy" name="kernel_xiaomi_daisy" remote="tree" revision="xt"/>
 
- <!-- Vendor Trees -->   
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/daisy" name="kernel_xiaomi_daisy" remote="tree"/>
+
+ <!-- Vendor Trees -->
   <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree"/>
-  
- <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-playgroundtc" name="playgroundtc" remote="clang"/>
-  
+
 </manifest>

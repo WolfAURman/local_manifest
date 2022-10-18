@@ -4,6 +4,10 @@
   <remote  name="6768Team"
            fetch="https://github.com/6768Team"/>
 
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com/Redmi-MT6768"
+           revision="twelve"/>
+
   <remote  name="memetek"
            fetch="https://github.com/nashc-dev"/>
 

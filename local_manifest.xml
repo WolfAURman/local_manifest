@@ -4,10 +4,6 @@
   <remote  name="6768Team"
            fetch="https://github.com/6768Team"/>
 
-  <remote  name="Redmi-MT6768"
-           fetch="https://github.com/Redmi-MT6768"
-           revision="twelve"/>
-
   <remote  name="memetek"
            fetch="https://github.com/nashc-dev"/>
 
@@ -23,12 +19,5 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="6768Team" revision="lineage-20"/>
-
- <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="6768Team" revision="lineage-20.0"/>
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="memetek" revision="next/arrow-13.0"/>
-
- <!-- Additional -->
-  <remove-project name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth"/>
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bluetooth" revision="13.0"/>
+  
 </manifest>

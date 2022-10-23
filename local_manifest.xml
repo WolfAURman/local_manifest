@@ -4,21 +4,25 @@
    <remote name="tree"
            fetch="https://github.com/Xtended-Devices"
            revision="xr"/>
-		   
+
+   <remote name="pernel"
+           fetch="https://gitlab.com/LinkBoi00"
+           revision="12.1"/>
+
    <remote name="clang"
-           fetch="https://gitlab.com/PixelOS-Devices"
-           revision="15"/>		   
+           fetch="https://github.com/kdrag0n/"
+           revision="master"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree"/>
+  <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree" />
    
  <!-- Kernel -->
-  <project path="kernel/xiaomi/daisy" name="kernel_xiaomi_daisy" remote="tree" revision="xt"/>
+  <project path="kernel/xiaomi/daisy" name="android_kernel_xiaomi_daisy" remote="pernel" />
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree"/>
-  
- <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-playgroundtc" name="playgroundtc" remote="clang"/>
-  
+  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree" />
+
+ <!-- Clang -->   
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" />
+
 </manifest>

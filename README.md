@@ -6,6 +6,7 @@ Everything listed as "archive" in the branches no longer makes sense.
 List of all active branches:
 
 > Daisy: 
+- [CrDroid 9.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid9.x-daisy_msm8953) ***
 - [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid8.x-daisy_msm8953) **
 - [CrDroid 7.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid7.x-daisy_msm8953) *
 - [LOS 18.1](https://github.com/WolfAURman/local_manifest/tree/los18.1-daisy_msm8953)
@@ -40,7 +41,6 @@ Or one line:
 rm -rf hardware/qcom-caf/msm8996/display && git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/display && rm -rf hardware/qcom-caf/msm8996/audio && git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/audio && rm -rf hardware/qcom-caf/msm8996/media && git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-msm8996 hardware/qcom-caf/msm8996/media
 ```
 
-
 If you don't need these repositories anymore:
 ```bash
 rm -rf hardware/qcom-caf/msm8996/display && rm -rf hardware/qcom-caf/msm8996/audio && rm -rf hardware/qcom-caf/msm8996/media
@@ -51,4 +51,11 @@ rm -rf hardware/qcom-caf/msm8996/display && rm -rf hardware/qcom-caf/msm8996/aud
 ```**``` - To create these ROMs, you need to clone this repository that is not present in CrDroid:
 ```bash
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-19.1 hardware/xiaomi
+```
+
+##
+
+```***``` - To create these ROMs, you need to clone this repository that is not present in CrDroid:
+```bash
+git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 ```

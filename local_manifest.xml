@@ -2,16 +2,22 @@
 <manifest>
 
    <remote name="tree"
-           fetch="https://github.com/Xtended-Devices"
-           revision="xt"/>
+           fetch="https://github.com/ItsVixano"
+           revision="lineage-20" />
+
+   <remote name="vendor"
+           fetch="https://gitlab.com/ItsVixano"
+           revision="lineage-20" />
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree"/>
-
+  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree" />
+  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree" />
+  <project path="device/xiaomi/sakura-common" name="android_device_xiaomi_sakura-common" remote="tree" />
+   
  <!-- Kernel -->
-  <project path="kernel/xiaomi/daisy" name="kernel_xiaomi_daisy" remote="tree"/>
+  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree" />
 
- <!-- Vendor Trees -->
-  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree"/>
+ <!-- Vendor Trees -->   
+  <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="vendor" />
 
 </manifest>

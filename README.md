@@ -27,6 +27,9 @@ List of all active branches:
 > Ginkgo
 - [CrDroid 9.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid9.x-ginkgo_sm6125)
 
+> Jason
+- [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/blob/CrDroid8.x-jason_sdm660/local_manifest.xml)
+
 ##
 
 ```*``` - When creating these ROMs, use these commands. With stock blobs 8996 from crDroid 7.x version, the screen does not start, but when using from Lineage 18.1, the launch is successful:

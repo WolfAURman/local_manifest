@@ -2,22 +2,21 @@
 <manifest>
 
    <remote name="tree"
-           fetch="https://github.com/ItsVixano"
-           revision="lineage-19.1"/>
-
-   <remote name="vendor"
-           fetch="https://gitlab.com/ItsVixano"
-           revision="lineage-19.1"/>
+           fetch="https://github.com/iamehsangh"
+           revision="12"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree"/>
-  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree" revision="staging3/lineage-19.1"/>
-  <project path="device/xiaomi/sakura-common" name="android_device_xiaomi_sakura-common" remote="tree"/>
-   
+  <project path="device/xiaomi/jason" name="android_device_xiaomi_jason" remote="tree" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="tree" revision="12-4.4" />
+  
  <!-- Kernel -->
-  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree"/>
+  <project path="kernel/xiaomi/jason" name="android_kernel_xiaomi_jason" remote="tree" revision="eas-los-bpf-test" />
 
- <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="vendor"/>
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/jason" name="android_vendor_xiaomi_jason" remote="tree" />
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="tree" revision="12-4.4" />
+
+ <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" />
 
 </manifest>

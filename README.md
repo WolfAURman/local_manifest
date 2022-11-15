@@ -30,6 +30,9 @@ List of all active branches:
 > Jason
 - [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/blob/CrDroid8.x-jason_sdm660/local_manifest.xml)
 
+> Sakura:
+- [CrDroid 9.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid9.x-sakura_msm8953) ****
+
 ##
 
 ```*``` - When creating these ROMs, use these commands. With stock blobs 8996 from crDroid 7.x version, the screen does not start, but when using from Lineage 18.1, the launch is successful:
@@ -61,4 +64,11 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-19.1 h
 ```***``` - To create these ROMs, you need to clone this repository that is not present in CrDroid:
 ```bash
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
+```
+
+##
+
+```****``` - To create this ROM you will need to replace the repository:
+```bash
+rm -rf device/qcom/sepolicy-legacy-um/ && git clone https://github.com/Dev-msm8953/platform_device_qcom_sepolicy-legacy-um device/qcom/sepolicy-legacy-um/
 ```

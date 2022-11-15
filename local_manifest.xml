@@ -6,7 +6,7 @@
            revision="lineage-20" />
 
    <remote name="vendor"
-           fetch="https://gitlab.com/ItsVixano"
+           fetch="https://gitlab.com/itsvixano-dev"
            revision="lineage-20" />
 
  <!-- Device Trees -->

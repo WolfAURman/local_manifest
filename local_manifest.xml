@@ -19,5 +19,12 @@
 
  <!-- Vendor Trees -->   
   <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="vendor" />
-
+   
+  <!-- Sepolicy legacy -->
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="Dev-msm8953/platform_device_qcom_sepolicy-legacy-um" remote="github" revision="xt"/>
+  
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
+   
 </manifest>

@@ -6,7 +6,7 @@
            revision="lineage-19.1"/>
 
    <remote name="vendor"
-           fetch="https://gitlab.com/ItsVixano"
+           fetch="https://gitlab.com/itsvixano-dev"
            revision="lineage-19.1"/>
 
  <!-- Device Trees -->
@@ -20,4 +20,6 @@
  <!-- Vendor Trees -->   
   <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="vendor"/>
 
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1"/>
 </manifest>

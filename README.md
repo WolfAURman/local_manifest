@@ -70,5 +70,74 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 har
 
 ```****``` - To create this ROM you will need to replace the repository:
 ```bash
-rm -rf device/qcom/sepolicy-legacy-um/ && git clone https://github.com/Dev-msm8953/platform_device_qcom_sepolicy-legacy-um device/qcom/sepolicy-legacy-um/
+rm -rf device/qcom/sepolicy-legacy-um && git clone https://github.com/Dev-msm8953/platform_device_qcom_sepolicy-legacy-um device/qcom/sepolicy-legacy-um
+```
+
+## Clone branch:
+
+### Daisy:
+
+> crDroid:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid9.x-daisy_msm8953/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid8.x-daisy_msm8953/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid7.x-daisy_msm8953/local_manifest.xml --create-dirs
+```
+> LineageOS:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-daisy_msm8953/local_manifest.xml --create-dirs
+```
+
+### Lava:
+>crDroid:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid9.x-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid8.x-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/crdroid7.x-mt6768PHQ-NewKernel/local_manifest.xml --create-dirs
+```
+
+> LineageOS:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los20.0-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los19.1-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-mt6768PHQ-NewKernel/local_manifest.xml --create-dirs
+```
+
+### Onclite:
+>crDroid:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid8.x-onclite_msm8953/local_manifest.xml --create-dirs
+```
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-onclite/local_manifest.xml --create-dirs
+```
+
+> LineageOS:
+
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-onclite/local_manifest.xml --create-dirs
 ```

@@ -154,3 +154,9 @@ LineageOS 18.1
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-onclite/local_manifest.xml --create-dirs
 ```
+
+## Synchronizing repositories:
+
+```bash
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```

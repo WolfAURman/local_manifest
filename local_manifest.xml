@@ -18,4 +18,6 @@
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="android_vendor_onclite" remote="fs"/>
 
+ <!-- Hardware -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.1"/>
 </manifest>

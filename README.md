@@ -13,10 +13,10 @@ List of all active branches:
 
 > Lava:
 - [CrDroid 9.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid9.x-mt6768-S_V)
-- [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid8.x-mt6768-S_V)
+- [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid8.x-mt6768-S_V) S vendor | [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/blob/crdroid8.x-mt6768PHQ_archive/local_manifest.xml) R vendor
 - [CrDroid 7.x](https://github.com/WolfAURman/local_manifest/tree/crdroid7.x-mt6768PHQ-NewKernel)
 - [LOS 20.0](https://github.com/WolfAURman/local_manifest/tree/los20.0-mt6768-S_V)
-- [LOS 19.1](https://github.com/WolfAURman/local_manifest/tree/los19.1-mt6768-S_V)
+- [LOS 19.1](https://github.com/WolfAURman/local_manifest/tree/los19.1-mt6768-S_V) S vendor | [LOS 19.1](https://github.com/WolfAURman/local_manifest/blob/los19.1-mt6768PHQ_archive/local_manifest.xml) R vendor
 - [LOS 18.1](https://github.com/WolfAURman/local_manifest/tree/los18.1-mt6768PHQ-NewKernel)
 
 > Onclite
@@ -108,9 +108,14 @@ crDroid 9
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid9.x-mt6768-S_V/local_manifest.xml --create-dirs
 ```
 
-crDroid 8
+crDroid 8 S vendor
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid8.x-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+crDroid 8 R vendor
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/crdroid8.x-mt6768PHQ_archive/local_manifest.xml --create-dirs
 ```
 
 crDroid 7
@@ -125,9 +130,14 @@ LineageOS 20
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los20.0-mt6768-S_V/local_manifest.xml --create-dirs
 ```
 
-LineageOS 19.1
+LineageOS 19.1 S vendor
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los19.1-mt6768-S_V/local_manifest.xml --create-dirs
+```
+
+LineageOS 19.1 R vendor
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los19.1-mt6768PHQ_archive/local_manifest.xml --create-dirs
 ```
 
 LineageOS 18.1

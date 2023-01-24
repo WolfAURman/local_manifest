@@ -21,8 +21,8 @@
 
  <!-- Additional -->
   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="PixelPlusUI/frameworks_opt_telephony" remote="github" revision="sv2"/>
+  <project path="frameworks/opt/telephony" name="CipherOS/android_frameworks_opt_telephony" remote="github" revision="twelve-L"/>
   
-  <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="PixelPlusUI/frameworks_opt_net_ims" remote="github" revision="sv2"/>
+  <remove-project name="crdroidandroid/android_frameworks_opt_net_ims" path="frameworks/opt/net/ims"/>
+  <project path="frameworks/opt/net/ims" name="CipherOS/android_frameworks_opt_net_ims" remote="github" revision="twelve-L"/>
 </manifest>

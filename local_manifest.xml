@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+      <!-- SONY -->
+      <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-18.1" />
+      <project name="whatawurst/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-18.1" />
+      <project name="whatawurst/android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" remote="github" revision="lineage-18.1" />
 
-   <remote name="tree"
-           fetch="https://github.com/Xtended-Devices"
-           revision="xr"/>
-
-   <remote name="pernel"
-           fetch="https://gitlab.com/LinkBoi00"
-           revision="12.1"/>
-
-   <remote name="clang"
-           fetch="https://github.com/kdrag0n/"
-           revision="master"/>
-
- <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree" />
-   
- <!-- Kernel -->
-  <project path="kernel/xiaomi/daisy" name="android_kernel_xiaomi_daisy" remote="pernel" />
-
- <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree" />
-
- <!-- Clang -->   
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" />
-
+      <!-- Pinned blobs for poplar_dsds -->
+      <project name="GADGETNiK/android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" remote="github" revision="lineage-18.1" />
 </manifest>

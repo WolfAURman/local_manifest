@@ -2,7 +2,7 @@
 <manifest>
 
    <remote name="tree"
-           fetch="https://github.com/Xtended-Devices"
+           fetch="https://github.com/WolfAURman"
            revision="xr"/>
 
    <remote name="pernel"
@@ -13,6 +13,10 @@
            fetch="https://github.com/kdrag0n/"
            revision="master"/>
 
+   <remote name="vendor"
+           fetch="https://github.com/Dev-msm8953"
+           revision="xr"/>
+   
  <!-- Device Trees -->
   <project path="device/xiaomi/daisy" name="device_xiaomi_daisy" remote="tree" />
    
@@ -20,7 +24,7 @@
   <project path="kernel/xiaomi/daisy" name="android_kernel_xiaomi_daisy" remote="pernel" />
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="tree" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="vendor" />
 
  <!-- Clang -->   
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" />

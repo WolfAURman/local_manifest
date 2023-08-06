@@ -10,7 +10,7 @@
            revision="eleven"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender " remote="WA"/>
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="WA"/>
  
  <!-- Kernel -->
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="tree" revision="thirteen"/>

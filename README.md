@@ -76,7 +76,7 @@ rm -rf device/qcom/sepolicy-legacy-um && git clone https://github.com/Dev-msm895
 
 ## Clone branch:
 
-### Daisy:
+<details><summary>Daisy:</summary>
 
 > crDroid:
 
@@ -100,8 +100,10 @@ LineageOS 18.1
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-daisy_msm8953/local_manifest.xml --create-dirs
 ```
+</details>
 
-### Lava:
+<details><summary>Lava:</summary>
+
 >crDroid:
 
 crDroid 9
@@ -145,8 +147,10 @@ LineageOS 18.1
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-mt6768PHQ-NewKernel/local_manifest.xml --create-dirs
 ```
+</details>
 
-### Onclite:
+<details><summary>Onclite:</summary>
+
 >crDroid:
 
 crDroid 9
@@ -170,6 +174,7 @@ LineageOS 18.1
 ```bash
 rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/los18.1-onclite/local_manifest.xml --create-dirs
 ```
+</details>
 
 ## Synchronizing repositories:
 

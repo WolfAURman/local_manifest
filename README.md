@@ -20,6 +20,7 @@ List of all active branches:
 - [LOS 18.1](https://github.com/WolfAURman/local_manifest/tree/los18.1-mt6768PHQ-NewKernel)
 
 > Onclite
+- [CrDroid 9.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid9.x-onclite_msm8953) ***
 - [CrDroid 8.x](https://github.com/WolfAURman/local_manifest/tree/CrDroid8.x-onclite_msm8953) **
 - [CrDroid 7.x](https://github.com/WolfAURman/local_manifest/tree/los18.1-onclite) *
 - [LOS 18.1](https://github.com/WolfAURman/local_manifest/tree/los18.1-onclite)
@@ -147,6 +148,11 @@ rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml
 
 ### Onclite:
 >crDroid:
+
+crDroid 9
+```bash
+rm -rf .repo/local_manifests && curl -o .repo/local_manifests/local_manifest.xml https://raw.githubusercontent.com/WolfAURman/local_manifest/CrDroid9.x-onclite_msm8953/local_manifest.xml --create-dirs
+```
 
 crDroid 8
 ```bash

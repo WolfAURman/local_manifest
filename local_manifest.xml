@@ -2,27 +2,21 @@
 <manifest>
 
    <remote name="tree"
-           fetch="https://github.com/ItsVixano"
+           fetch="https://github.com/LineageOS"
            revision="lineage-20" />
 
    <remote name="vendor"
-           fetch="https://gitlab.com/itsvixano-dev"
+           fetch="https://github.com/Dhina17"
            revision="lineage-20" />
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="tree" />
-  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="tree" />
-  <project path="device/xiaomi/sakura-common" name="android_device_xiaomi_sakura-common" remote="tree" />
+  <project path="device/xiaomi/onclite" name="android_device_xiaomi_onclite" remote="tree" />
    
  <!-- Kernel -->
-  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="tree" />
+  <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="tree" />
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="vendor" />
-   
-  <!-- Sepolicy legacy -->
-  <remove-project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="Dev-msm8953/platform_device_qcom_sepolicy-legacy-um" remote="github" revision="xt"/>
+  <project path="vendor/xiaomi/onclite" name="android_vendor_xiaomi_onclite" remote="vendor" />
   
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>

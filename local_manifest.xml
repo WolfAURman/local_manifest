@@ -24,7 +24,7 @@
   <project path="kernel/xiaomi/daisy" name="android_kernel_xiaomi_daisy" remote="pernel" />
 
  <!-- Vendor Trees -->   
-  <project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="vendor" />
+  <project path="vendor/xiaomi" name="android_vendor_xiaomi_daisy" remote="vendor" />
 
  <!-- Clang -->   
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" />
